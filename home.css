@@ -119,9 +119,9 @@ ul li a:hover {
 }
 .user_prof {
   float: right;
-  margin-top: 30px;
-  margin-right: 90px;
-  padding-left: 40px;
+  margin-top: -65px;
+  margin-right: 69px;
+  padding-left: 42px;
 }
 .prof {
   width: 44px;
@@ -132,6 +132,80 @@ ul li a:hover {
 }
 .user_prof a i {
   color: #fff;
+}
+.log {
+  position: relative;
+  left: 2%;
+  padding-left: 1%;
+}
+#nav-sty1 {
+  position: relative;
+  top: 1%;
+  left: 20.6%;
+  height: 97%;
+  width: 15%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.226),
+    rgba(118, 116, 116, 0.101)
+  );
+  border: rgba(250, 235, 215, 0.263) 1.5px solid;
+}
+#nav-sty2 {
+  position: relative;
+  top: 1%;
+  left: 35.6%;
+  height: 97%;
+  width: 16%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.226),
+    rgba(118, 116, 116, 0.101)
+  );
+  border: rgba(250, 235, 215, 0.263) 1.5px solid;
+  margin-top: -6.8%;
+}
+#nav-sty3 {
+  position: relative;
+  top: 1%;
+  left: 51.7%;
+  height: 97%;
+  width: 14%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.226),
+    rgba(118, 116, 116, 0.101)
+  );
+  border: rgba(250, 235, 215, 0.263) 1.5px solid;
+  margin-top: -6.8%;
+}
+#nav-sty4 {
+  position: relative;
+  top: 1%;
+  left: 65.7%;
+  height: 97%;
+  width: 16.7%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.226),
+    rgba(118, 116, 116, 0.101)
+  );
+  border: rgba(250, 235, 215, 0.263) 1.5px solid;
+  margin-top: -6.8%;
+}
+#nav-sty5 {
+  position: relative;
+  top: 1%;
+  left: 82.6%;
+  height: 97%;
+  width: 17%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.226),
+    rgba(118, 116, 116, 0.101)
+  );
+  border: rgba(250, 235, 215, 0.263) 1.5px solid;
+  margin-top: -6.8%;
 }
 #p h3 {
   font-family: wrk;
@@ -146,7 +220,7 @@ ul li a:hover {
   position: relative;
   width: 350px;
   height: 400px;
-  margin-top: 250px;
+  margin-top: 150px;
   margin-left: 100px;
   background-color: rgba(0, 0, 0, 0.226);
 }
@@ -204,6 +278,6 @@ ul li a:hover {
   font-size: 25px;
   margin-left: 3px;
   padding-left: 20px;
-
-  color: #c8daffc9;
+  font-weight: 700;
+  color: #d4e3ffc9;
 }

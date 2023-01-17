@@ -73,7 +73,7 @@ body {
 nav {
   background-color: rgba(0, 0, 0, 0.379);
   height: 100px;
-  width: 1480px;
+  width: 1515px;
 }
 .nav_cont {
   position: absolute;
@@ -120,7 +120,7 @@ ul li a:hover {
 .user_prof {
   float: right;
   margin-top: -65px;
-  margin-right: 69px;
+  margin-right: 49px;
   padding-left: 42px;
 }
 .prof {
@@ -133,9 +133,14 @@ ul li a:hover {
 .user_prof a i {
   color: #fff;
 }
-.log {
+.ref {
   position: relative;
   left: 2%;
+  padding-left: 1%;
+}
+.log {
+  position: relative;
+  left: 5%;
   padding-left: 1%;
 }
 #nav-sty1 {
@@ -156,19 +161,19 @@ ul li a:hover {
   top: 1%;
   left: 35.6%;
   height: 97%;
-  width: 16%;
+  width: 14%;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.226),
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
-  margin-top: -6.8%;
+  margin-top: -6.6%;
 }
 #nav-sty3 {
   position: relative;
   top: 1%;
-  left: 51.7%;
+  left: 49.7%;
   height: 97%;
   width: 14%;
   background: linear-gradient(
@@ -177,35 +182,35 @@ ul li a:hover {
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
-  margin-top: -6.8%;
+  margin-top: -6.6%;
 }
 #nav-sty4 {
   position: relative;
   top: 1%;
-  left: 65.7%;
+  left: 63.7%;
   height: 97%;
-  width: 16.7%;
+  width: 18.7%;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.226),
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
-  margin-top: -6.8%;
+  margin-top: -6.6%;
 }
 #nav-sty5 {
   position: relative;
   top: 1%;
   left: 82.6%;
   height: 97%;
-  width: 17%;
+  width: 17.4%;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.226),
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
-  margin-top: -6.8%;
+  margin-top: -6.6%;
 }
 #p h3 {
   font-family: wrk;
@@ -220,7 +225,7 @@ ul li a:hover {
   position: relative;
   width: 350px;
   height: 400px;
-  margin-top: 150px;
+  margin-top: 120px;
   margin-left: 100px;
   background-color: rgba(0, 0, 0, 0.226);
 }
@@ -280,4 +285,12 @@ ul li a:hover {
   padding-left: 20px;
   font-weight: 700;
   color: #d4e3ffc9;
+}
+article {
+  position: absolute;
+  top: 114%;
+  left: 40.3%;
+  width: 59.2%;
+  height: 86%;
+  background-color: #19181822;
 }

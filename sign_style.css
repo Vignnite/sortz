@@ -1,0 +1,75 @@
+* {
+  font-family: Tahoma;
+  font-size: large;
+}
+body {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(img/bag.jpg);
+  background-position: center;
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+}
+.ass {
+  background-color: black;
+  color: azure;
+  align-content: center;
+  margin-top: 100px;
+  width: 700px;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-left: 380px;
+}
+.men {
+  padding-left: 260px;
+}
+form {
+  background-color: rgba(240, 255, 255, 0.533);
+  align-items: center;
+  color: rgb(4, 3, 24);
+  width: 720px;
+  margin-left: 380px;
+  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.arc {
+  padding: 25px;
+}
+.btn {
+  background-color: rgb(26, 30, 60);
+  color: antiquewhite;
+  border-color: azure;
+  border-right-color: transparent;
+  position: absolute;
+  top: 8.5px;
+  height: 39px;
+  padding-left: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#tac {
+  margin: 2.2%;
+  font-size: smaller;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #333;
+}
+.btn1 {
+  position: absolute;
+  left: 45px;
+  top: 9px;
+  height: 38px;
+  margin: 0px;
+  padding: 3.5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(26, 30, 60);
+  color: antiquewhite;
+  border-color: azure;
+  border-left-color: transparent;
+}

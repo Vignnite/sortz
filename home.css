@@ -277,7 +277,7 @@ ul li a:hover {
   margin-left: 10px;
   color: #fff;
 }
-.cont-pane a {
+.p2 {
   position: relative;
   font-family: sor;
   font-size: 25px;
@@ -292,5 +292,81 @@ article {
   left: 40.3%;
   width: 59.2%;
   height: 86%;
-  background-color: #19181822;
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  background-color: #22222202;
+  border-left: solid 2px rgba(255, 255, 255, 0.218);
+}
+.card {
+  width: 32%;
+  height: 52%;
+  align-items: center;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 2% 2%;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 7% 9%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: 0.5s;
+}
+.search {
+  background-image: url(img/ser.png);
+}
+.search h4 {
+  padding-left: 20%;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: 0 0 5px rgb(227, 255, 148);
+}
+.search p {
+  background-color: transparent;
+  padding-top: 60%;
+  font-weight: 800;
+  color: azure;
+  text-shadow: 0 0 5px #999;
+}
+.sort {
+  background-image: url(img/sorted.jpg);
+}
+.sort h4 {
+  padding-left: 20%;
+  font-weight: bolder;
+  color: rgb(3, 3, 3);
+  text-shadow: 0 0 5px #1f003f82;
+}
+.sort p {
+  background-color: transparent;
+  padding-top: 60%;
+  font-weight: 800;
+  color: rgb(16, 16, 16);
+  text-shadow: 0 0 10px rgb(226, 255, 108);
+}
+article header {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 20%;
+  height: 10%;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+header a {
+  margin-top: 30%;
+  margin-bottom: 50%;
+  font-size: larger;
+  color: #fff;
+  font-weight: bold;
+}
+.card:hover {
+  transform: translateY(-5%);
+  border-color: #fff;
+  box-shadow: 0px 0px 20px #fff;
 }

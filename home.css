@@ -361,9 +361,16 @@ article header {
 header a {
   margin-top: 30%;
   margin-bottom: 50%;
-  font-size: larger;
+  font-size: large;
   color: #fff;
+  text-shadow: 0 0 20px rgb(255, 255, 136);
   font-weight: bold;
+}
+header a:hover {
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(205, 229, 251);
+  text-shadow: 0 0 25px rgb(255, 255, 188);
 }
 .card:hover {
   transform: translateY(-5%);

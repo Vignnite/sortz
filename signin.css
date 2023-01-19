@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(img/tcealma.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cont {
+  position: relative;
+  box-sizing: border-box;
+  margin: 1% 25%;
+  background-color: rgba(11, 11, 11, 0.534);
+  height: 50%;
+  width: 55%;
+}
+.sign-cnt {
+  margin: 20% 38%;
+}
+.sign-cnt header {
+  margin: 10% 50%;
+  display: inline-block;
+}
+.sign-cnt header p {
+  position: relative;
+  padding-top: 15%;
+  padding-left: 50%;
+  padding-bottom: 10%;
+  border: 2px #fff solid;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+  font-weight: bold;
+  font-size: larger;
+}

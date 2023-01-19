@@ -50,6 +50,7 @@ body {
   padding-right: 20px;
   padding-top: 10px;
   border: 5px;
+  height: 5%;
   border-style: double;
   border-color: rgba(250, 249, 249, 0.66);
   border-radius: 17px;
@@ -90,9 +91,9 @@ ul {
 }
 ul li {
   list-style: none;
-  margin-left: 120px;
-  margin-top: 30px;
-  width: 100px;
+  margin-left: 115px;
+  margin-top: -5%;
+  width: 29%;
   font-size: 16.5px;
 }
 ul li a {
@@ -102,6 +103,12 @@ ul li a {
   font-weight: bold;
   transition: 0.4s ease-in-out;
   letter-spacing: 1.3px;
+}ul li:nth-child(2){
+  width:2%;
+}
+ul li:nth-child(3)
+{
+  padding-left: 3.5%;
 }
 ul li a:hover {
   color: rgba(255, 165, 92, 0.923);
@@ -109,8 +116,8 @@ ul li a:hover {
 .logo {
   position: absolute;
   display: flex;
-  top: 800px;
-  margin-top: -72px;
+  top: 100%;
+  margin-top: 0.5%;
   margin-left: 20px;
   border-radius: 50%;
   border: azure 12px double;
@@ -146,9 +153,9 @@ ul li a:hover {
 #nav-sty1 {
   position: relative;
   top: 1%;
-  left: 20.6%;
+  left: 22.6%;
   height: 97%;
-  width: 15%;
+  width: 13%;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.226),
@@ -168,7 +175,7 @@ ul li a:hover {
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
-  margin-top: -6.6%;
+  margin-top: -7.35%;
 }
 #nav-sty3 {
   position: relative;
@@ -182,7 +189,7 @@ ul li a:hover {
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
-  margin-top: -6.6%;
+  margin-top: -7.3%;
 }
 #nav-sty4 {
   position: relative;
@@ -196,21 +203,21 @@ ul li a:hover {
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
-  margin-top: -6.6%;
+  margin-top: -7.35%;
 }
 #nav-sty5 {
   position: relative;
   top: 1%;
-  left: 82.6%;
+  left: 82.5%;
   height: 97%;
-  width: 17.4%;
+  width: 17.1%;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.226),
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
-  margin-top: -6.6%;
+  margin-top: -7.35%;
 }
 #p h3 {
   font-family: wrk;
@@ -288,10 +295,10 @@ ul li a:hover {
 }
 article {
   position: absolute;
-  top: 114%;
+  top: 115%;
   left: 40.3%;
   width: 59.2%;
-  height: 86%;
+  height: 82%;
   display: flex;
   flex-basis: 50%;
   align-items: center;
@@ -301,8 +308,8 @@ article {
   border-left: solid 2px rgba(255, 255, 255, 0.218);
 }
 .card {
-  width: 32%;
-  height: 52%;
+  width: 42%;
+  height: 62%;
   align-items: center;
   display: inline-block;
   border-radius: 10px;
@@ -313,11 +320,11 @@ article {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   transition: 0.5s;
 }
 .search {
-  background-image: url(img/ser.png);
+  background-image: radial-gradient(rgba(9, 2, 58, 0.452),rgba(13, 13, 41, 0.123)),url(img/ser.png);
+
 }
 .search h4 {
   padding-left: 20%;
@@ -327,13 +334,13 @@ article {
 }
 .search p {
   background-color: transparent;
-  padding-top: 60%;
+  padding-top: 74%;
   font-weight: 800;
   color: azure;
   text-shadow: 0 0 5px #999;
 }
 .sort {
-  background-image: url(img/sorted.jpg);
+  background-image:  radial-gradient(rgba(172, 168, 168, 0.699),rgba(255, 255, 255, 0.616)),url(img/sorted.jpg) ;
 }
 .sort h4 {
   padding-left: 20%;
@@ -343,7 +350,7 @@ article {
 }
 .sort p {
   background-color: transparent;
-  padding-top: 60%;
+  padding-top: 70%;
   font-weight: 800;
   color: rgb(16, 16, 16);
   text-shadow: 0 0 10px rgb(226, 255, 108);

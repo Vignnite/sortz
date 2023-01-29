@@ -105,6 +105,7 @@ ul li a {
 }
 ul li a:hover {
   color: rgba(255, 165, 92, 0.923);
+  cursor: pointer;
 }
 .logo {
   position: absolute;
@@ -155,6 +156,7 @@ ul li a:hover {
     rgba(118, 116, 116, 0.101)
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
+  cursor: pointer;
 }
 #nav-sty2 {
   position: relative;
@@ -169,6 +171,7 @@ ul li a:hover {
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
   margin-top: -6.6%;
+  cursor: pointer;
 }
 #nav-sty3 {
   position: relative;
@@ -183,6 +186,7 @@ ul li a:hover {
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
   margin-top: -6.6%;
+  cursor: pointer;
 }
 #nav-sty4 {
   position: relative;
@@ -197,6 +201,7 @@ ul li a:hover {
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
   margin-top: -6.6%;
+  cursor: pointer;
 }
 #nav-sty5 {
   position: relative;
@@ -211,6 +216,7 @@ ul li a:hover {
   );
   border: rgba(250, 235, 215, 0.263) 1.5px solid;
   margin-top: -6.6%;
+  cursor: pointer;
 }
 #p h3 {
   font-family: wrk;
@@ -317,7 +323,11 @@ article {
   transition: 0.5s;
 }
 .search {
-  background-image: url(img/ser.png);
+  background-image: radial-gradient(
+      rgba(10, 1, 49, 0.055),
+      rgba(21, 21, 21, 0.466)
+    ),
+    url(img/ser.png);
 }
 .search h4 {
   padding-left: 20%;
@@ -333,7 +343,11 @@ article {
   text-shadow: 0 0 5px #999;
 }
 .sort {
-  background-image: url(img/sorted.jpg);
+  background-image: radial-gradient(
+      rgba(42, 42, 43, 0.284),
+      rgba(244, 221, 221, 0.46)
+    ),
+    url(img/sorted.jpg);
 }
 .sort h4 {
   padding-left: 20%;

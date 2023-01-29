@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-image: linear-gradient(
       to top,
@@ -17,27 +17,207 @@ body {
 .cont {
   position: relative;
   box-sizing: border-box;
-  margin: 1% 25%;
+  margin: 11.7% 33%;
   background-color: rgba(11, 11, 11, 0.534);
-  height: 50%;
-  width: 55%;
+  height: 63%;
+  width: 30%;
+  box-shadow: 2px 2px 10px 7px rgb(255, 216, 216);
+  align-items: center;
+  justify-items: center;
 }
 .sign-cnt {
-  margin: 20% 38%;
+  margin: 7% 22%;
 }
 .sign-cnt header {
-  margin: 10% 50%;
+  margin: 2% 35%;
+  align-items: center;
+  justify-content: center;
   display: inline-block;
 }
 .sign-cnt header p {
   position: relative;
+  left: -70%;
   padding-top: 15%;
-  padding-left: 50%;
+  padding-left: 61%;
+  padding-right: 15%;
   padding-bottom: 10%;
-  border: 2px #fff solid;
-  border-radius: 3px;
+  border: 3px rgba(255, 255, 255, 0.649) inset;
+  border-radius: 20px;
   color: #fff;
+  width: 150%;
   font-weight: 500;
   font-weight: bold;
   font-size: larger;
+  transition: 0.3s ease-out;
+}
+.sign-cnt header p:hover {
+  background-color: rgba(255, 255, 255, 0.603);
+  color: rgba(11, 2, 112, 0.818);
+  text-shadow: 2px 2px 5px rgba(27, 29, 1, 0.966);
+  border: rgba(34, 34, 34, 0.559) 3px ridge;
+}
+#usern {
+  color: antiquewhite;
+}
+#pass {
+  color: aliceblue;
+}
+.signa {
+  color: antiquewhite;
+  text-shadow: rgb(10, 40, 142);
+  text-decoration: none;
+}
+#usern label {
+  position: relative;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  width: 15px;
+  letter-spacing: 0.5px;
+  color: rgba(250, 235, 215, 0.96);
+}
+#un {
+  margin-top: 2%;
+  width: 70%;
+  height: 4.5vh;
+  align-items: center;
+  align-content: center;
+  border: 4px #ddd groove;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.247);
+  color: rgba(238, 238, 238, 0.7);
+  justify-content: center;
+  justify-items: center;
+  padding-left: 30%;
+}
+#pass label {
+  position: relative;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  width: 15px;
+  margin-top: 2%;
+  letter-spacing: 0.5px;
+  color: rgba(250, 235, 215, 0.96);
+}
+#pass1 {
+  margin-top: 2%;
+  width: 70%;
+  height: 4.5vh;
+  align-items: center;
+  align-content: center;
+  border: 4px #ddd groove;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.247);
+  color: rgba(238, 238, 238, 0.7);
+  justify-content: center;
+  justify-items: center;
+  padding-left: 30%;
+}
+#buttons {
+  position: relative;
+  width: 100%;
+  margin: 5% 13%;
+}
+#sub {
+  position: relative;
+  background: rgba(18, 18, 18, 0.678);
+  color: rgba(195, 114, 15, 0.94);
+  border: 2.5px rgba(14, 94, 94, 0.751) inset;
+  border-radius: 25px;
+  font-size: medium;
+  font-weight: 400;
+  width: 40%;
+  padding: 5% 10%;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transition: 0.4s ease-in-out;
+}
+#sub:hover {
+  position: relative;
+  background: rgba(68, 68, 68, 0.612);
+  color: #ddd;
+  border: rgba(195, 114, 15, 0.94) outset;
+}
+#res {
+  position: relative;
+  background: rgba(18, 18, 18, 0.678);
+  color: rgba(195, 114, 15, 0.94);
+  border: 2.5px rgba(14, 94, 94, 0.751) inset;
+  border-radius: 25px;
+  font-size: medium;
+  font-weight: 400;
+  width: 40%;
+  padding: 5% 10%;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transition: 0.4s ease-in-out;
+}
+#res:hover {
+  position: relative;
+  background: rgba(68, 68, 68, 0.612);
+  color: #ddd;
+  border: rgba(195, 114, 15, 0.94) outset;
+}
+#info p:first-child {
+  margin-left: 50%;
+  color: #fff;
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 15px;
+}
+#info p:last-child {
+  margin-left: 25%;
+  color: bisque;
+  font-family: "Gill Sans";
+  font-weight: 600;
+  margin-bottom: 14%;
+}
+#info p:last-child a {
+  color: rgb(170, 85, 16);
+}
+.user_icon a {
+  position: absolute;
+  top: 43.5%;
+  left: 41%;
+  filter: invert(1);
+  height: 2%;
+}
+.pass_icon a {
+  position: absolute;
+  top: 53%;
+  left: 41%;
+  width: 2px;
+  filter: invert(1);
+  height: 1.5px;
+}
+.btn {
+  background-color: rgb(26, 30, 60);
+  color: antiquewhite;
+  border-color: azure;
+  border-right-color: transparent;
+  position: absolute;
+  top: 8.5px;
+  height: 39px;
+  padding-left: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn1 {
+  position: absolute;
+  left: 45px;
+  top: 9px;
+  height: 38px;
+  margin: 0px;
+  padding: 3.5px;
+  padding-right: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(26, 30, 60);
+  color: antiquewhite;
+  border-color: azure;
+  font-weight: 600;
+  border-left-color: transparent;
 }

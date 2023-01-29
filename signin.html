@@ -5,22 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="signin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />    
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>  -->
+    <!-- <script>
+      function redirect() {
+        window.location = "https://127.0.0.1:5502/index.html";
+      }
+    </script> -->
     <title>Sign-in</title>
   </head>
   <body>
+    <nav class="nav">
+      <a href="index.html"
+          ><button class="btn">
+            <img icon="backdoor" src="img/backdoor (2).png" alt=":-)"height=
+            "35"width ="35" />
+           <button class="btn1">
+            Back
+            </button>
+          </button></a
+        >
+    </nav>
+    <div class="user_icon">
+      <a>
+        <i class="fa fa-fw fa-user"></i>
+      </a>
+     </div>
+    <div class="pass_icon">
+      <a>
+        <img src ="img/lock.png" width="17" height="17"/>
+      </a>
+    </div>  
     <div class="cont">
       <div class="sign-cnt">
         <header>
           <p>User Login</p>
         </header>
-        <form class="forms">
+        <form
+          name="forms"
+          action="http://127.0.0.1:5502/index.html"
+          method="post"
+        >
           <div id="usern">
             <label for="">Username:</label><br />
             <input
               type="text"
               id="un"
               name="un"
-              placeholder="Choose Username"
+              placeholder="Enter Username"
               required
             /><br />
           </div>
@@ -35,15 +74,21 @@
             /><br />
           </div>
           <div id="buttons">
-            <button type="submit" id="sub">Proceed</button>
+            <button type="submit" id="sub" onclick="return validate()">
+              Proceed</a>
+            </button>
             <button type="reset" id="res">Reset</button>
           </div>
           <div id="info">
             <p>Or</p>
-            <p>New to Sortz then <a href="/signup.html">Sign-up</a></p>
+            <p>
+              New to Sortz then
+              <a href="/signup.html" class="signa"> Sign-up </a>
+            </p>
           </div>
         </form>
       </div>
     </div>
+    <script src="signin.js"></script>
   </body>
 </html>

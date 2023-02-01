@@ -46,7 +46,7 @@
     <div class="cont">
       <div class="sign-cnt">
         <header>
-          <p>User Login</p>
+          <p >User Login</p>
         </header>
         <form
           name="forms"
@@ -60,6 +60,8 @@
               id="un"
               name="un"
               placeholder="Enter Username"
+              onfocus="textfoc(this)"
+              onblur = "textblur(this)"
               required
             /><br />
           </div>
@@ -81,14 +83,10 @@
           </div>
           <div id="info">
             <p>Or</p>
-<<<<<<< HEAD
             <p>
               New to Sortz then
-              <a href="/signup.html" class="signa"> Sign-up </a>
+              <a href="/signup.html" class="signa" onmouseover="mmove(this)" onmouseout="mmout(this)"> Sign-up </a>
             </p>
-=======
-            <p>New to Sortz then <a href="signup.html">Sign-up</a></p>
->>>>>>> 42acaf02320acb6c9639b6f258deb115a7b23faa
           </div>
         </form>
       </div>

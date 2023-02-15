@@ -13,13 +13,12 @@ function validate() {
   if (x === " " || y === " ") {
     alert("Login Credential are mandatory!!!");
   }
-  if (x === "Hello" && y === "world") {
+  if (x == "Hello" && y == "world") {
     // alert("Login Successful Welcome " + x);
 
     // var url = "https://www.google.com/";
     // g_navgation.open(url, "_blank");
-
-    return true;
+    window.location.href = "index.html";
     // document.location.assign(url);
   } else {
     alert("Invalid Username or password");
